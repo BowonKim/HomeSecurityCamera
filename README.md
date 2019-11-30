@@ -16,6 +16,8 @@ Excute sh mjpg.sh for live streaming.
 Edit the record.py to change the time how long you are going to record the video and change the email.
 If you want to find a file excute the BST.py 
 
+#### record.py
+You need to change the path: where you are going to store the video files, time: how long you are going to record the video and sleep the program, email section: you need to change 'me', 'password' and 'you'.
 
 #### Installing_mjpg-streamer
 download Raspbian to use Raspberry pi
