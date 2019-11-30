@@ -1,23 +1,23 @@
 # HomeSecurityCamera
 
-##Getting Started
+## Getting Started
 This project is a home security camera that used raspberry pi zero.
 It constantly record videos and the files will be stored in a flash drive. When the file is stored, it sends email notification.
 It procides web live streaming and photographic function. You can find files with BST.py. 
 
-###Prerequisites
+### Prerequisites
 * [Raspbian](https://www.raspberrypi.org/downloads/raspbian/) - The OS for Raspberry pi
 * [mjpg-streamer](https://github.com/jacksonliam/mjpg-streamer) - It create HTML pages to stream the video over your browser.
 
 
-###Installing
+### Installing
 Install mjpg streamer 
 Excute sh mjpg.sh for live streaming. 
 Edit the record.py to change the time how long you are going to record the video and change the email.
 If you want to find a file excute the BST.py 
 
 
-####Installing_mjpg-streamer
+#### Installing_mjpg-streamer
 download Raspbian to use Raspberry pi
 To set up the camera type 
 
